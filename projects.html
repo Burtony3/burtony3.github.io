@@ -8,7 +8,22 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<!-- Lightboxes Script -->
 		<link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+
+		<!-- Mathjax Script -->
+			<!--
+				Notation:
+				Inline Math: $math$  OR  \(math\)
+				Centerlined Math: $$math$$
+			-->
+		<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+		  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+		});
+		</script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
 	</head>
 	<body class="is-preload">
@@ -39,7 +54,8 @@
 						</span>
 						<br>
 						<p>
-							Intro paragraph to set stage for rest of projects.
+							Intro paragraph to set stage for rest of projects.<br>
+							\(\int_{0}^{t} F(\tau)h(t - \tau) d\tau\)
 						</p>
 					</div>
 				</section>
