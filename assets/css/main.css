@@ -138,8 +138,8 @@ input, select, textarea {
 		--color-accent: #0d47a1;
 		--color-accent-alt: #2196f3;
 	}
-    
-		
+
+
 /* Type */
 
 	body, input, select, textarea {
@@ -269,7 +269,7 @@ input, select, textarea {
 			1px -1px 0 #000,
 			-1px 1px 0 #000,
 			1px 1px 0 #000;
-        margin: 0 0 2em 0;
+      margin: 0 0 2em 0;
 	    font-size: 1.65em;
 	    max-width: 50%;
 	    word-wrap: break-word;
@@ -2686,6 +2686,16 @@ input, select, textarea {
 			    max-width: 30%;
             }
 
+		.image.avatar img {
+			border-radius: 50%;
+			max-width: 75%;
+			height: auto;
+			border:2px solid #ccc;
+		  background: url(images/headshot.jpg) no-repeat;
+		  /* -moz-box-shadow: 0px 6px 5px #ccc; */
+		  /* -webkit-box-shadow: 0px 6px 5px #ccc; */
+		}
+
 
 		.image.fit {
 			display: block;
@@ -4016,8 +4026,8 @@ input, select, textarea {
 
 	#introSplash {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
-		background-position: top right;
+		background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("images/rocket1.JPG");
+		background-position: top left;
 		background-repeat: no-repeat;
 		background-size: 100% auto;
 	}
