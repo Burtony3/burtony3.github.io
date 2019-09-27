@@ -4026,7 +4026,7 @@ input, select, textarea {
 
 	#introSplash {
 		background-attachment: fixed;
-		background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("images/rocket1.JPG");
+		background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("images/rocket1.jpg");
 		background-position: top left;
 		background-repeat: no-repeat;
 		background-size: 100% auto;
